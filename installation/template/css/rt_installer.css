@@ -1,0 +1,270 @@
+/* Custom RocketLauncher CSS */
+
+.rt-installation {
+	background: #F5F5F5;
+}
+
+.rt-installation a {
+	color: #E0463B;
+}
+
+.rt-installation a:hover {
+	color: #31A1EB;
+	text-decoration: none;
+}
+
+.rt-installation h3 {
+	color: #333333;
+}
+
+.rt-installation p {
+	margin: 5px 0;
+}
+
+.rt-installation hr {
+	border-top: 1px solid #e1e1e1;
+ 	border-bottom: 1px solid #ffffff;
+ 	margin: 15px 0;
+}
+
+.rt-installation .step.active span {
+	background-color: #e0463b;
+}
+
+.rt-installation .step.active .badge {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.rt-installation .step .badge {
+	background-color: #1F1F1F;
+	border-bottom: 1px solid #4F4F4F;
+}
+
+.rt-installation .header {
+	background: #2b2c31; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2b2c31 0%, #4a4452 50%, #4a4452 50%, #2a2d32 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b2c31), color-stop(50%,#4a4452), color-stop(50%,#4a4452), color-stop(100%,#2a2d32)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2b2c31 0%,#4a4452 50%,#4a4452 50%,#2a2d32 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2b2c31 0%,#4a4452 50%,#4a4452 50%,#2a2d32 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2b2c31 0%,#4a4452 50%,#4a4452 50%,#2a2d32 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2b2c31 0%,#4a4452 50%,#4a4452 50%,#2a2d32 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2c31', endColorstr='#2a2d32',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	border: 0;
+	padding: 0;
+}
+
+.rt-bg-star {
+	background: url('../images/showcase-bg.jpg') repeat-x 0 0 transparent;
+	height: 215px;
+}
+
+.rt-logo {
+	padding: 30px 0 20px 0;
+	display: inline-block;
+}
+
+.rt-template {
+	color: #dddddd;
+	display: inline-block;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	text-shadow: 1px 2px 1px #111111;
+	text-rendering: optimizelegibility;
+}
+
+.rt-tag1, .rt-tag2 {
+	display: inline-block;
+}
+
+.rt-tag1 {
+	font-size: 24px;
+}
+
+.rt-tag2 {
+	font-size: 35px;
+}
+
+.rt-jlogo {
+	margin: 0 0 0 20px;
+	display: inline-block;
+}
+
+.rt-logo-footer {
+	text-align: center;
+	padding: 0 0 15px 0;
+}
+
+.rt-bg-overlay {
+	background: rgba(0, 0, 0, 0.05);
+	border-top: 1px solid #36333C;
+	height: 100%;
+}
+
+.rt-jlicense {
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+	text-shadow: 1px 2px 1px #111111;
+	padding-top: 20px;
+	border-top: 1px solid #535059;
+	text-rendering: optimizelegibility;
+}
+
+.rt-content {
+	background: #F5F5F5;
+	position: relative;
+}
+
+.rt-content #container-installation {
+	color: #8F8F8F;
+}
+
+.rt-content .nav-tabs {
+	border-bottom: 1px solid #F5F5F5;
+	position: absolute;
+	top: -39px;
+}
+
+.rt-content .nav-tabs > li {
+	margin-bottom: 0;
+}
+
+.rt-content .nav-tabs > .active > a, .rt-content .nav-tabs > .active > a:hover {
+	background: #F5F5F5;
+	border: 1px solid transparent;
+}
+
+.rt-content .nav-tabs > li > a:hover {
+	background: #48494D;
+	border-color: #555555 #444444 transparent transparent;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.rt-content #container-installation .btn-toolbar .btn.btn-primary,
+.rt-content #container-installation #languages .btn.btn-primary {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	background-color: #1D79B5;
+	background-image: -moz-linear-gradient(top, #2A9DE6, #1D79B5);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2A9DE6), to(#0044cc));
+	background-image: -webkit-linear-gradient(top, #2A9DE6, #1D79B5);
+	background-image: -o-linear-gradient(top, #2A9DE6, #1D79B5);
+	background-image: linear-gradient(to bottom, #2A9DE6, #1D79B5);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+	*background-color: #1D79B5;
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.rt-content #container-installation .btn-toolbar .btn {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	background-color: #759EBA;
+	background-image: -moz-linear-gradient(top, #A3C7DD, #759EBA);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A3C7DD), to(#759EBA));
+	background-image: -webkit-linear-gradient(top, #A3C7DD, #759EBA);
+	background-image: -o-linear-gradient(top, #A3C7DD, #759EBA);
+	background-image: linear-gradient(to bottom, #A3C7DD, #759EBA);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+	*background-color: #759EBA;
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.rt-content #languageForm {
+	margin-top: 20px;
+}
+
+.rt-content #summary_email .control-label {
+	text-align: left;
+}
+
+.rt-content .label, .rt-content .label-success, .rt-content .label-warning, .rt-content .label-important {
+	padding: 5px 10px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.rt-content .label-success {
+	background-color: #8CB952;
+}
+
+.rt-content .label-warning {
+	background-color: #E7832B;
+}
+
+.rt-content .label-important {
+	background-color: #D64041;
+}
+
+.rt-content #system-message-container {
+	margin-top: 20px;
+}
+
+.rt-content .alert.alert-warning, .rt-content .alert.alert-notice {
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	color: #B94A48;
+}
+
+.rt-content .alert.alert-success h3 {
+	color: #468847;
+}
+
+.rt-content .rt-overview {
+	background: #f0f0f0;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+	margin: 15px 0;
+}
+
+.rt-content .rt-overview .table-striped tbody tr:nth-child(2n+1) td, .rt-content .rt-overview .table-striped tbody tr:nth-child(2n+1) th {
+	background: none;
+}
+
+.rt-content .table-condensed td, .rt-content .table-condensed th {
+	padding: 10px 15px;
+	vertical-align: middle;
+	box-shadow: 0px 1px 0 #ffffff;
+}
+
+.rt-content .table-condensed tfoot td {
+	box-shadow: none;
+	padding: 0;
+}
+
+.rt-content p.install-text {
+	padding: 10px 15px;
+}
+
+.rt-content input:focus:required:invalid:focus, .rt-content textarea:focus:required:invalid:focus, .rt-content select:focus:required:invalid:focus, .rt-content textarea:focus, .rt-content input[type="text"]:focus, .rt-content input[type="password"]:focus, .rt-content input[type="datetime"]:focus, .rt-content input[type="datetime-local"]:focus, .rt-content input[type="date"]:focus, .rt-content input[type="month"]:focus, .rt-content input[type="time"]:focus, .rt-content input[type="week"]:focus, .rt-content input[type="number"]:focus, .rt-content input[type="email"]:focus, .rt-content input[type="url"]:focus, .rt-content input[type="search"]:focus, .rt-content input[type="tel"]:focus, .rt-content input[type="color"]:focus, .rt-content .uneditable-input:focus {
+	border-color: #61D0E4;
+	box-shadow: 0 0 6px #61D0E4;
+}
+
+.rt-content input:focus:required:invalid, .rt-content textarea:focus:required:invalid, .rt-content select:focus:required:invalid {
+	color: #B94A48;
+}
+
+.rt-content .chzn-container .chzn-results .highlighted {
+	background-color: #1D79B5;
+	background-image: linear-gradient(to bottom, #2A9DE6, #1D79B5);	
+}
+
+#licenseModal {
+	display: none;
+	z-index: 10000;
+}
+#licenseModal iframe {
+	margin-left: 0;
+}
+.modal-backdrop {
+	z-index: 9999;
+}

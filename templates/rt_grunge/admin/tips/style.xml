@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+<tip label="Background Level" id="backgroundlevel"><![CDATA[The <strong>Background Level</strong> setting allows you to easily change the level of the background graphics of your site. Each of the levels differs from another with the amount of details that graphic contains.]]></tip>
+	
+	<tip label="Body Level" id="bodylevel"><![CDATA[The <strong>Body Level</strong> setting allows you to easily change the level of the body graphics of your site. Each of the levels differs from another with the amount of details that graphic contains.]]></tip>
+	
+	<tip label="CSS Style" id="cssstyle"><![CDATA[The <strong>CSS Style</strong> setting allows you to easily change the whole look of your site. The different CSS styles are a selection of preset settings such as background colors and font settings. A little preview thumbnail can be seen in the <strong>Overview</strong> tab.]]></tip>
+	
+	<tip label="Link Color" id="linkcolor"><![CDATA[<strong>The Link Color</strong> setting provides the ability to easily change the color used to highlight links. Colors can be inputted via the <strong>Colorchooser</strong> popup selector or manually using a hex code in the input field.]]></tip>
+		
+	<tip label="Font Settings" id="font"><![CDATA[A selection of fonts to be applied to your site's frontend is available from the <strong>Font Settings</strong> dropdown. It is also possible to set the <strong>Font Size</strong> according to your preference.]]></tip>
+	
+</gantrytips>
